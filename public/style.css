@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333; /* Default text color */
+}
+
+header, section, footer {
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 60px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.cta {
+    background-color: #28a745;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+/* Additional Styling */
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta a {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    header {
+        padding: 40px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p, .main p {
+        font-size: 1em;
+    }
+
+    .cta p {
+        font-size: 1em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+}
+
+/* ... (Previous CSS) ... */
+
+/* Updated "Get Started" Section */
+.cta {
+    background-color: #28a745;
+    color: #fff;
+    padding: 60px 20px; /* Increased padding for better spacing */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff; /* Text color matches button color */
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px; /* Increased margin for better spacing */
+}
+
+.cta a {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 30px; /* Larger button size */
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s; /* Added transition for button hover effect */
+}
+
+.cta a:hover {
+    background-color: #218838; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+}
+
+/* ... (Rest of the CSS) ... */
